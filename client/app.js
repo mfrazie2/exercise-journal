@@ -1,8 +1,8 @@
-angular.module('exercise-journal', ["ngRoute"])
+angular.module('exercise-journal', ["exercise-journal.home","ngRoute"])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: "homePage/homepage.html",
-        controller: "HomePageController"
+      .when('/home', {
+        templateUrl: "homePage/homepage.html"
+        // controller: "HomePageController"
       });
   });
