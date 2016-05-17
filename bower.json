@@ -1,0 +1,18 @@
+{
+  "name": "exercise-journal",
+  "homepage": "https://github.com/mfrazie2/exercise-journal",
+  "authors": [
+    "Mike Frazier <michael.s.frazier@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
