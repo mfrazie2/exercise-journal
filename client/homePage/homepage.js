@@ -1,6 +1,6 @@
 angular.module('exercise-journal.home', [])
-  .controller("HomePageController", function($scope) {
+  .controller('HomePageController', ($scope) => {
     $scope.user = {
-      username: "Mike"  
+      username: 'Mike',
     };
   });
