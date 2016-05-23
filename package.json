@@ -19,5 +19,9 @@
   "homepage": "https://github.com/mfrazie2/exercise-journal#readme",
   "dependencies": {
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.1.1"
   }
 }
