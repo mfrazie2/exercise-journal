@@ -1,0 +1,13 @@
+<div>
+  <h2>What did you accomplish today?</h2>
+  <form name='exercise-form' ng-submit='submitEntry()'>
+    <p>What activity did you do? Running, biking, lifting...?</p>
+    <input type='text' placeholder='Activity...' ng-model='newEntry.activity' />
+    <p>Describe what you did in your session today.</p>
+    <input type='text' placeholder='Description...' ng-model='newEntry.description' />
+    <p>How difficult was workout today?</p>
+    <label>Crushed it! No problem!</label>
+    <input type='range' min="1" max="10" ng-model='newEntry.difficulty' />
+    <label>Kicked my butt today...</label>
+  </form>
+</div>
